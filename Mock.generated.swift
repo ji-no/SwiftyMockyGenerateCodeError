@@ -70,24 +70,44 @@ open class SampleProtocolMock: SampleProtocol, Mock {
 		return __value
     }
 
+    open func failure() -> Observable {
+        addInvocation(.m_failure)
+		let perform = methodPerformValue(.m_failure) as? () -> Void
+		perform?()
+		var __value: Observable
+		do {
+		    __value = try methodReturnValue(.m_failure).casted()
+		} catch {
+			onFatalFailure("Stub return value not specified for failure(). Use given")
+			Failure("Stub return value not specified for failure(). Use given")
+		}
+		return __value
+    }
+
 
     fileprivate enum MethodType {
         case m_success
+        case m_failure
 
         static func compareParameters(lhs: MethodType, rhs: MethodType, matcher: Matcher) -> Matcher.ComparisonResult {
             switch (lhs, rhs) {
             case (.m_success, .m_success): return .match
+
+            case (.m_failure, .m_failure): return .match
+            default: return .none
             }
         }
 
         func intValue() -> Int {
             switch self {
             case .m_success: return 0
+            case .m_failure: return 0
             }
         }
         func assertionName() -> String {
             switch self {
             case .m_success: return ".success()"
+            case .m_failure: return ".failure()"
             }
         }
     }
@@ -104,10 +124,20 @@ open class SampleProtocolMock: SampleProtocol, Mock {
         public static func success(willReturn: Sample...) -> MethodStub {
             return Given(method: .m_success, products: willReturn.map({ StubProduct.return($0 as Any) }))
         }
+        public static func failure(willReturn: Observable...) -> MethodStub {
+            return Given(method: .m_failure, products: willReturn.map({ StubProduct.return($0 as Any) }))
+        }
         public static func success(willProduce: (Stubber<Sample>) -> Void) -> MethodStub {
             let willReturn: [Sample] = []
 			let given: Given = { return Given(method: .m_success, products: willReturn.map({ StubProduct.return($0 as Any) })) }()
 			let stubber = given.stub(for: (Sample).self)
+			willProduce(stubber)
+			return given
+        }
+        public static func failure(willProduce: (Stubber<Observable>) -> Void) -> MethodStub {
+            let willReturn: [Observable] = []
+			let given: Given = { return Given(method: .m_failure, products: willReturn.map({ StubProduct.return($0 as Any) })) }()
+			let stubber = given.stub(for: (Observable).self)
 			willProduce(stubber)
 			return given
         }
@@ -117,6 +147,7 @@ open class SampleProtocolMock: SampleProtocol, Mock {
         fileprivate var method: MethodType
 
         public static func success() -> Verify { return Verify(method: .m_success)}
+        public static func failure() -> Verify { return Verify(method: .m_failure)}
     }
 
     public struct Perform {
@@ -125,6 +156,9 @@ open class SampleProtocolMock: SampleProtocol, Mock {
 
         public static func success(perform: @escaping () -> Void) -> Perform {
             return Perform(method: .m_success, performs: perform)
+        }
+        public static func failure(perform: @escaping () -> Void) -> Perform {
+            return Perform(method: .m_failure, performs: perform)
         }
     }
 

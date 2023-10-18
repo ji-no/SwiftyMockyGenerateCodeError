@@ -11,9 +11,13 @@ import Foundation
 struct Sample {
 }
 
+struct Observable {
+}
+
 // sourcery: AutoMockable
 protocol SampleProtocol {
-
+    
     func success() -> Sample
+    func failure() -> Observable
     
 }
