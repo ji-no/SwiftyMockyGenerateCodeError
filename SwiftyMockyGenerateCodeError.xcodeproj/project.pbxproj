@@ -17,6 +17,7 @@
 		3B2D51252ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D51242ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITests.swift */; };
 		3B2D51272ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D51262ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITestsLaunchTests.swift */; };
 		3B3CFE1C2AE04EA9003DAA61 /* SampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CFE1B2AE04EA9003DAA61 /* SampleProtocol.swift */; };
+		3B3CFE202AE053D3003DAA61 /* Mock.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CFE1F2AE053D3003DAA61 /* Mock.generated.swift */; };
 		B957F7FCB52EF2B7DC934449 /* Pods_SwiftyMockyGenerateCodeError_SwiftyMockyGenerateCodeErrorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0176CD92C7209CC99534B349 /* Pods_SwiftyMockyGenerateCodeError_SwiftyMockyGenerateCodeErrorUITests.framework */; };
 		D7988EDA80A22E5E67A9CEA0 /* Pods_SwiftyMockyGenerateCodeError.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A945B27229196A38ED9730AF /* Pods_SwiftyMockyGenerateCodeError.framework */; };
 		EE3E9DC53E364BD1038D3C4F /* Pods_SwiftyMockyGenerateCodeErrorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71856A65D70EECA38B7AAAA /* Pods_SwiftyMockyGenerateCodeErrorTests.framework */; };
@@ -57,6 +58,7 @@
 		3B2D51242ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyMockyGenerateCodeErrorUITests.swift; sourceTree = "<group>"; };
 		3B2D51262ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyMockyGenerateCodeErrorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3B3CFE1B2AE04EA9003DAA61 /* SampleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProtocol.swift; sourceTree = "<group>"; };
+		3B3CFE1F2AE053D3003DAA61 /* Mock.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.generated.swift; sourceTree = SOURCE_ROOT; };
 		46A31A64EFF4698D5BC5413B /* Pods-SwiftyMockyGenerateCodeError.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMockyGenerateCodeError.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyMockyGenerateCodeError/Pods-SwiftyMockyGenerateCodeError.debug.xcconfig"; sourceTree = "<group>"; };
 		4A6988E0D073C69D9E47B4EA /* Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig"; sourceTree = "<group>"; };
 		84F6383E3377BCDC71A036B1 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				3B2D511A2ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorTests.swift */,
+				3B3CFE1F2AE053D3003DAA61 /* Mock.generated.swift */,
 			);
 			path = SwiftyMockyGenerateCodeErrorTests;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3CFE202AE053D3003DAA61 /* Mock.generated.swift in Sources */,
 				3B2D511B2ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
