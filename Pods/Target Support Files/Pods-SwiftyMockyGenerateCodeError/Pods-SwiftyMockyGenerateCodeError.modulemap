@@ -1,0 +1,6 @@
+framework module Pods_SwiftyMockyGenerateCodeError {
+  umbrella header "Pods-SwiftyMockyGenerateCodeError-umbrella.h"
+
+  export *
+  module * { export * }
+}

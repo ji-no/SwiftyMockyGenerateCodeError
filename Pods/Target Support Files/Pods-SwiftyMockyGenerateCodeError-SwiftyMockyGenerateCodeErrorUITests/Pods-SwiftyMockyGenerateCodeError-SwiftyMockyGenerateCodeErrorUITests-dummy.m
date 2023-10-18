@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SwiftyMockyGenerateCodeError_SwiftyMockyGenerateCodeErrorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_SwiftyMockyGenerateCodeError_SwiftyMockyGenerateCodeErrorUITests
+@end
