@@ -16,6 +16,7 @@
 		3B2D511B2ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D511A2ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorTests.swift */; };
 		3B2D51252ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D51242ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITests.swift */; };
 		3B2D51272ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D51262ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITestsLaunchTests.swift */; };
+		3B3CFE1C2AE04EA9003DAA61 /* SampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CFE1B2AE04EA9003DAA61 /* SampleProtocol.swift */; };
 		B957F7FCB52EF2B7DC934449 /* Pods_SwiftyMockyGenerateCodeError_SwiftyMockyGenerateCodeErrorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0176CD92C7209CC99534B349 /* Pods_SwiftyMockyGenerateCodeError_SwiftyMockyGenerateCodeErrorUITests.framework */; };
 		D7988EDA80A22E5E67A9CEA0 /* Pods_SwiftyMockyGenerateCodeError.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A945B27229196A38ED9730AF /* Pods_SwiftyMockyGenerateCodeError.framework */; };
 		EE3E9DC53E364BD1038D3C4F /* Pods_SwiftyMockyGenerateCodeErrorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71856A65D70EECA38B7AAAA /* Pods_SwiftyMockyGenerateCodeErrorTests.framework */; };
@@ -55,6 +56,7 @@
 		3B2D51202ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyMockyGenerateCodeErrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2D51242ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyMockyGenerateCodeErrorUITests.swift; sourceTree = "<group>"; };
 		3B2D51262ADFEBA500AA5020 /* SwiftyMockyGenerateCodeErrorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyMockyGenerateCodeErrorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B3CFE1B2AE04EA9003DAA61 /* SampleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProtocol.swift; sourceTree = "<group>"; };
 		46A31A64EFF4698D5BC5413B /* Pods-SwiftyMockyGenerateCodeError.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMockyGenerateCodeError.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyMockyGenerateCodeError/Pods-SwiftyMockyGenerateCodeError.debug.xcconfig"; sourceTree = "<group>"; };
 		4A6988E0D073C69D9E47B4EA /* Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig"; sourceTree = "<group>"; };
 		84F6383E3377BCDC71A036B1 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				3B2D510C2ADFEBA500AA5020 /* Assets.xcassets */,
 				3B2D510E2ADFEBA500AA5020 /* LaunchScreen.storyboard */,
 				3B2D51112ADFEBA500AA5020 /* Info.plist */,
+				3B3CFE1B2AE04EA9003DAA61 /* SampleProtocol.swift */,
 			);
 			path = SwiftyMockyGenerateCodeError;
 			sourceTree = "<group>";
@@ -164,7 +167,6 @@
 				D53C0170DD5A02DD4EC9BD9E /* Pods-SwiftyMockyGenerateCodeErrorTests.debug.xcconfig */,
 				4A6988E0D073C69D9E47B4EA /* Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,6 +412,7 @@
 				3B2D51082ADFEBA300AA5020 /* ViewController.swift in Sources */,
 				3B2D51042ADFEBA300AA5020 /* AppDelegate.swift in Sources */,
 				3B2D51062ADFEBA300AA5020 /* SceneDelegate.swift in Sources */,
+				3B3CFE1C2AE04EA9003DAA61 /* SampleProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
