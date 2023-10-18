@@ -6,74 +6,172 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4D8229B0397AE8C2F7C11B3F9EFC9362 /* Sourcery */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8C0FA8664472892B08200EA125A01D5C /* Build configuration list for PBXAggregateTarget "Sourcery" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Sourcery;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0DC4D3C69A18EB8AB3E4825421966C2F /* Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F55BF3FD76E12D1806DEF699A45C0C /* Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m */; };
-		2F90B453046B34E69B8B8CE8A9421224 /* Pods-SwiftyMockyGenerateCodeError-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F44023095A67B76E985C597E9068646C /* Pods-SwiftyMockyGenerateCodeError-dummy.m */; };
-		645B2A408DA6C5945374A0759ADDB54E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		67912EAE1A76AC80850A9888A6800EE4 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BECB6D5AA6D775F2101EA0F33D7C565 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C6AB321D2AE1A8BC951249BEDD73066 /* Pods-SwiftyMockyGenerateCodeError-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 496B91C8903D6A6C785F3776E6C2293B /* Pods-SwiftyMockyGenerateCodeError-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2E9B0C5BCB8ED884B88DC4126A7CD7 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D373BACAFB1F4FC4CFF7794A6C8BF1C9 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m */; };
+		0DC4D3C69A18EB8AB3E4825421966C2F /* Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEAF68BE3735D579CF65B2DF9ED40 /* Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m */; };
+		16C7B45F87DD0969B480B4E2833840E8 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F67B1A3E7B1AFE802712DD341DA7B8E /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m */; };
+		19B7C418006B5DE95915EEC176F51F19 /* SwiftyMocky-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F4D155D4DDC4E951B55C9F86A169D8 /* SwiftyMocky-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25B25A5C0A3CED24B0730E8710883407 /* Policies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A961BEB6E2333BD9BBE047D870BE08 /* Policies.swift */; };
+		2FBF204C9ADBE81266A0524A7A27410A /* Parameter+Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9273D92C86BE9AD113C15B8C74A03 /* Parameter+Literals.swift */; };
+		45E562D1C8887B3A58C08DE8BDD06BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4830AA8897EFDC52A2EED29078BAA3A2 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E22C16D696D44F05786C432ECF3E1B /* Count.swift */; };
+		4A9BAA38CB6625DBD2E043D892BCDC62 /* GenericAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B120D71A77ED4F247B9FEF606C040F8 /* GenericAttribute.swift */; };
+		4B5C9EDE9E69794818F9E5253A7E24C4 /* Mock+Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61655F4345990ACC0CC26710D2892461 /* Mock+Assertions.swift */; };
+		4D14E6E7D1E1C2A43343EF089876099E /* SwiftyMocky-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA717784451100922460112C245B8B3 /* SwiftyMocky-dummy.m */; };
+		5686190C356089AE95800EA801042739 /* Stubbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084FD33B55D8213A6E2EDFD460B55B2 /* Stubbing.swift */; };
+		5B28EC84FA8C8F3F2839865DD96E604F /* SwiftyMockyTestObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E158455872CEA15C4DE57C859C1413A0 /* SwiftyMockyTestObserver.swift */; };
+		686FA755802C5E7D3F18F7F0148A97E1 /* ArgumentCaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D1052B9B2B75403F98320D0FFB2968 /* ArgumentCaptor.swift */; };
+		69A2E49A914F7DDC65B1DD44B549E1DA /* MockyAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D7E9AF55A4ADBB2A0FBD11F1335BD4 /* MockyAssert.swift */; };
+		85A936114CEF2B6954F1E1BB5D60966F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		85B618DB0108B0FA2DAB4C35D7B33B5E /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37198A447BAE538F4EC20CAE2E682CC2 /* Mock.swift */; };
 		86B6C8E114969436B59B0EE9F0841BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9AEBD8B973ED87548CCEBCE7A13F0ED3 /* Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CF513D3B30E8C669637C7D05B3DD63 /* Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A14CDF57F7F46F1FBD6548331D5AD4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8781D25B79F8268A8AFE485B445C02EF /* Parameter+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED521AFCBA5D73C33D7C8975173C6AA8 /* Parameter+Compare.swift */; };
+		8E12CCD65F2FA3E19FAB8A835BA8CE52 /* Pods-SwiftyMockyGenerateCodeError-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41358E51CA9E23F050F113FE3DFE7D24 /* Pods-SwiftyMockyGenerateCodeError-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90DEEDBE4350A8817FA9E0CD4CCB88C4 /* Mock.swifttemplate in Resources */ = {isa = PBXBuildFile; fileRef = 5B8FC0BBF8480938B4BBC930B22DB46E /* Mock.swifttemplate */; };
+		9AEBD8B973ED87548CCEBCE7A13F0ED3 /* Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3770CC340B3D5B7BAE68A8AA45B36E /* Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A52334050CF03C001176A460B0DA0F7D /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB27D444ECF8E6BF566098FBEEA92A15 /* Matcher.swift */; };
+		AB6553E08040E5A7B4BE86568941054C /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CB3E93AC75A2091BB562440413D171 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB7C3810A9D6135BD533A84181F4556B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226CCC3560B1B68D47128301B48971D8 /* Utils.swift */; };
+		C84BB504C01FCF7C373350C341F23B1A /* Pods-SwiftyMockyGenerateCodeError-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 039B20DEEC847C532957CCF90A278046 /* Pods-SwiftyMockyGenerateCodeError-dummy.m */; };
+		D41A3571305D4C0C4A0772AB0673E48D /* Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA07FCCA87A0877A2ECBAAF218D8EC /* Countable.swift */; };
+		DA4FAB4B3024BEDC9EDED887C9D6AC62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DEAFF6DA6AE4A4CDDF869966B0735688 /* CustomAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20804B6266AD256ADB44F11E13461524 /* CustomAssertions.swift */; };
+		DFBA859054B8199877E6009BDA73B1F8 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EF9ECF43B9E4AE5B898857C447B93 /* Parameter.swift */; };
+		E545E95B1DB327DC7F282737690EBAA8 /* Parameter+Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586EBCC101B32DB0D98C2170B3A394BB /* Parameter+Optionals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		028586EA3C81701F0E8ECB3481C1479F /* PBXContainerItemProxy */ = {
+		2BE37595C2248E6C384C8CE5C2ED274F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8229B0397AE8C2F7C11B3F9EFC9362;
+			remoteInfo = Sourcery;
+		};
+		7738871799C67D2890AEE5C28DDF1DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8229B0397AE8C2F7C11B3F9EFC9362;
+			remoteInfo = Sourcery;
+		};
+		797234DDAA138C7D5A9B658EAD0F5FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1D382CC4BD286E42005EFFC61B9445;
+			remoteInfo = SwiftyMocky;
+		};
+		97782D6A8531C22AA693BF03BF199AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8229B0397AE8C2F7C11B3F9EFC9362;
+			remoteInfo = Sourcery;
+		};
+		AAE5600AB6643156CB1604492C6AA8F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ABBC50F9280F416EDFCB2607C82101BD;
 			remoteInfo = "Pods-SwiftyMockyGenerateCodeError";
 		};
+		D841EC8E619A481C4DA6FA19C7C75368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1D382CC4BD286E42005EFFC61B9445;
+			remoteInfo = SwiftyMocky;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16794FBBCE25FB4C9ABACDB612B959BE /* Pods-SwiftyMockyGenerateCodeError-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMockyGenerateCodeError-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E08F7C9B929D711A7C9E4E6D06C1C8C /* Pods-SwiftyMockyGenerateCodeError-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeError-Info.plist"; sourceTree = "<group>"; };
-		2E2B137A31AA4B42CBFEF3DDDFD03C7A /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2FAE595E8396610ECC3C17C4F2F26552 /* Pods-SwiftyMockyGenerateCodeError-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeError-acknowledgements.plist"; sourceTree = "<group>"; };
-		31F55BF3FD76E12D1806DEF699A45C0C /* Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m"; sourceTree = "<group>"; };
-		3E38D6F5FFFAD8DE6F9F7F0805B7318C /* Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist"; sourceTree = "<group>"; };
-		496B91C8903D6A6C785F3776E6C2293B /* Pods-SwiftyMockyGenerateCodeError-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMockyGenerateCodeError-umbrella.h"; sourceTree = "<group>"; };
-		53CF513D3B30E8C669637C7D05B3DD63 /* Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h"; sourceTree = "<group>"; };
-		593127802BDA4D996B4DD1F8BC3186E8 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		039B20DEEC847C532957CCF90A278046 /* Pods-SwiftyMockyGenerateCodeError-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMockyGenerateCodeError-dummy.m"; sourceTree = "<group>"; };
+		10FAFEC4C3340E97C70009938F9B0615 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		119EA951AEA410B1ADA6F34176DB9B0A /* Pods-SwiftyMockyGenerateCodeError-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeError-Info.plist"; sourceTree = "<group>"; };
+		14B8C4199040CE85DFA0ACB254977F61 /* Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FEEF3550E47A256A5F5948342B04EDF /* Pods-SwiftyMockyGenerateCodeError.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeError.release.xcconfig"; sourceTree = "<group>"; };
+		2011C5AEA288AA4E731C9BEF58DC4048 /* Pods-SwiftyMockyGenerateCodeError-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeError-acknowledgements.plist"; sourceTree = "<group>"; };
+		20804B6266AD256ADB44F11E13461524 /* CustomAssertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAssertions.swift; path = Sources/SwiftyMocky/CustomAssertions.swift; sourceTree = "<group>"; };
+		226CCC3560B1B68D47128301B48971D8 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Shared/Utils.swift; sourceTree = "<group>"; };
+		28D7E9AF55A4ADBB2A0FBD11F1335BD4 /* MockyAssert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockyAssert.swift; path = Sources/SwiftyMocky/MockyAssert.swift; sourceTree = "<group>"; };
+		29F4D155D4DDC4E951B55C9F86A169D8 /* SwiftyMocky-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMocky-umbrella.h"; sourceTree = "<group>"; };
+		2AE9273D92C86BE9AD113C15B8C74A03 /* Parameter+Literals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Parameter+Literals.swift"; path = "Sources/SwiftyMocky/Parameter+Literals.swift"; sourceTree = "<group>"; };
+		2F4C574292C7692FE28156A41299370F /* Pods-SwiftyMockyGenerateCodeError-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyMockyGenerateCodeError-frameworks.sh"; sourceTree = "<group>"; };
+		36DF65DCAAFB659CADD7753852C11D42 /* Pods-SwiftyMockyGenerateCodeError-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMockyGenerateCodeError-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37198A447BAE538F4EC20CAE2E682CC2 /* Mock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mock.swift; path = Sources/Shared/Mock.swift; sourceTree = "<group>"; };
+		38E22C16D696D44F05786C432ECF3E1B /* Count.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Count.swift; path = Sources/Shared/Count.swift; sourceTree = "<group>"; };
+		39A09E559E4DC63743C7F41F2F39D507 /* Pods-SwiftyMockyGenerateCodeErrorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeErrorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F67B1A3E7B1AFE802712DD341DA7B8E /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m"; sourceTree = "<group>"; };
+		4036C0A85FD42610A2BB779577974B6E /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41358E51CA9E23F050F113FE3DFE7D24 /* Pods-SwiftyMockyGenerateCodeError-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMockyGenerateCodeError-umbrella.h"; sourceTree = "<group>"; };
+		44C3157F2DA369F51BC73DF436AE110B /* SwiftyMocky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMocky.debug.xcconfig; sourceTree = "<group>"; };
+		46ECCE659A7AED3748E9280C51914B21 /* Sourcery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sourcery.debug.xcconfig; sourceTree = "<group>"; };
+		4DDA917285ABDE9E9E7E133737196CCA /* SwiftyMocky-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMocky-prefix.pch"; sourceTree = "<group>"; };
+		586EBCC101B32DB0D98C2170B3A394BB /* Parameter+Optionals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Parameter+Optionals.swift"; path = "Sources/Shared/Parameter+Optionals.swift"; sourceTree = "<group>"; };
 		59CF495FDB3C165F96EC3567E5B6A0F0 /* Pods-SwiftyMockyGenerateCodeError */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyMockyGenerateCodeError"; path = Pods_SwiftyMockyGenerateCodeError.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BECB6D5AA6D775F2101EA0F33D7C565 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h"; sourceTree = "<group>"; };
-		5DA88780C13104F98DE6CA45A710083D /* Pods-SwiftyMockyGenerateCodeError.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMockyGenerateCodeError.modulemap"; sourceTree = "<group>"; };
-		659139CD1A299FDB12CAE806F21431EA /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-Info.plist"; sourceTree = "<group>"; };
-		7054785C39FF1694ED775F2D464171F4 /* Pods-SwiftyMockyGenerateCodeErrorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMockyGenerateCodeErrorTests.modulemap"; sourceTree = "<group>"; };
+		5B8FC0BBF8480938B4BBC930B22DB46E /* Mock.swifttemplate */ = {isa = PBXFileReference; includeInIndex = 1; name = Mock.swifttemplate; path = Sources/SwiftyMocky/Mock.swifttemplate; sourceTree = "<group>"; };
+		5E5F1B7474314ADE5FD2F23DD75E255C /* Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist"; sourceTree = "<group>"; };
+		61655F4345990ACC0CC26710D2892461 /* Mock+Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mock+Assertions.swift"; path = "Sources/Shared/Mock+Assertions.swift"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75E0B2C6812F638D4F3246C86C6E2FFE /* Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig"; sourceTree = "<group>"; };
-		91CC597D6554BDE54D6AD4CB9C976BDF /* Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75BDEAF68BE3735D579CF65B2DF9ED40 /* Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m"; sourceTree = "<group>"; };
+		77029D2E9CDDA7A0AF40A4C3AFFBE6A4 /* Pods-SwiftyMockyGenerateCodeErrorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMockyGenerateCodeErrorTests.modulemap"; sourceTree = "<group>"; };
+		773FA784F2DC34EF8748EF5FB6E66DD0 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		77CB3E93AC75A2091BB562440413D171 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h"; sourceTree = "<group>"; };
+		79C6096EA539CFBD6BEFD6342A5D8B07 /* SwiftyMocky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMocky.release.xcconfig; sourceTree = "<group>"; };
+		7BA717784451100922460112C245B8B3 /* SwiftyMocky-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyMocky-dummy.m"; sourceTree = "<group>"; };
+		8032E4925C40C574FA3A0C2632867ED6 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-Info.plist"; sourceTree = "<group>"; };
+		89DA07FCCA87A0877A2ECBAAF218D8EC /* Countable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Countable.swift; path = Sources/Shared/Countable.swift; sourceTree = "<group>"; };
+		8B40FF8EDB4A773B9FBBDDD296F9C892 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B120D71A77ED4F247B9FEF606C040F8 /* GenericAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericAttribute.swift; path = Sources/Shared/GenericAttribute.swift; sourceTree = "<group>"; };
+		9CAC436BD9D0DF55BEC0D0DEC221FF32 /* Sourcery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sourcery.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A785F443BD308CBB01019A9A2A639535 /* Pods-SwiftyMockyGenerateCodeError.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeError.release.xcconfig"; sourceTree = "<group>"; };
-		A99B150EFC20CA7E7F901A72B9D497BD /* Pods-SwiftyMockyGenerateCodeError.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeError.debug.xcconfig"; sourceTree = "<group>"; };
-		AA25C03DFAC35B7DAE20A09F4B4E399A /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEAC560AF524D2929905FE426A342397 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.modulemap"; sourceTree = "<group>"; };
-		D373BACAFB1F4FC4CFF7794A6C8BF1C9 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m"; sourceTree = "<group>"; };
+		A084FD33B55D8213A6E2EDFD460B55B2 /* Stubbing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stubbing.swift; path = Sources/Shared/Stubbing.swift; sourceTree = "<group>"; };
+		A743758EAD656F9AE60F6B3041360F1B /* SwiftyMocky */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyMocky; path = SwiftyMocky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD86D2A5BB94E0392031D3914D8FDAF2 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2FFA918D3DC2F56B4B82E9A584E7F8A /* SwiftyMocky-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyMocky-Info.plist"; sourceTree = "<group>"; };
+		D66A537C7229E3BCA62C2378601AE3B4 /* Pods-SwiftyMockyGenerateCodeError.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMockyGenerateCodeError.modulemap"; sourceTree = "<group>"; };
 		D87DCD135E06EE0C45C0657905A4DAF3 /* Pods-SwiftyMockyGenerateCodeErrorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyMockyGenerateCodeErrorTests"; path = Pods_SwiftyMockyGenerateCodeErrorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0E517A230A41E489D3DC8FF48702807 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB27D444ECF8E6BF566098FBEEA92A15 /* Matcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matcher.swift; path = Sources/Shared/Matcher.swift; sourceTree = "<group>"; };
+		DB3770CC340B3D5B7BAE68A8AA45B36E /* Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h"; sourceTree = "<group>"; };
+		E158455872CEA15C4DE57C859C1413A0 /* SwiftyMockyTestObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyMockyTestObserver.swift; path = Sources/SwiftyMocky/SwiftyMockyTestObserver.swift; sourceTree = "<group>"; };
+		E62093EBB8E656F406B8D4717E5A8582 /* Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig"; sourceTree = "<group>"; };
+		EAAD8B679ED2CCCCF79E74D2DBE18915 /* Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED2904BC9566F2C4C0F8B898A5B188AE /* Pods-SwiftyMockyGenerateCodeError.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeError.debug.xcconfig"; sourceTree = "<group>"; };
+		ED521AFCBA5D73C33D7C8975173C6AA8 /* Parameter+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Parameter+Compare.swift"; path = "Sources/Shared/Parameter+Compare.swift"; sourceTree = "<group>"; };
 		F25BDACEC24FD154B722D562F1EA881C /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests"; path = Pods_SwiftyMockyGenerateCodeError_SwiftyMockyGenerateCodeErrorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F44023095A67B76E985C597E9068646C /* Pods-SwiftyMockyGenerateCodeError-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMockyGenerateCodeError-dummy.m"; sourceTree = "<group>"; };
-		F8275B59706F485ADBEDAEE216ABEC19 /* Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FC08AB54D753E89F53BFAADCA2CFF0E2 /* Pods-SwiftyMockyGenerateCodeErrorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMockyGenerateCodeErrorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2A961BEB6E2333BD9BBE047D870BE08 /* Policies.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Policies.swift; path = Sources/Shared/Policies.swift; sourceTree = "<group>"; };
+		F2D1052B9B2B75403F98320D0FFB2968 /* ArgumentCaptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentCaptor.swift; path = Sources/SwiftyMocky/ArgumentCaptor.swift; sourceTree = "<group>"; };
+		F7C00639CB8C5CF34D37405860DA2FC1 /* SwiftyMocky.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyMocky.modulemap; sourceTree = "<group>"; };
+		FC9EF9ECF43B9E4AE5B898857C447B93 /* Parameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parameter.swift; path = Sources/Shared/Parameter.swift; sourceTree = "<group>"; };
+		FD8617D075112F322A68A1E5446EC735 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B6E93D7FC50165D0C84179B086171CC /* Frameworks */ = {
+		04195EB650CF74ACE49D4A097EC0F15B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				645B2A408DA6C5945374A0759ADDB54E /* Foundation.framework in Frameworks */,
+				85A936114CEF2B6954F1E1BB5D60966F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		732E2B8C53CEF070C8A22EE2F07CAAD4 /* Frameworks */ = {
+		4363FB4CEF05A4508B77F7521A08D675 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A14CDF57F7F46F1FBD6548331D5AD4B2 /* Foundation.framework in Frameworks */,
+				45E562D1C8887B3A58C08DE8BDD06BB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,43 +183,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B21E6F06EE1CCDC0D66F55DF27CD425A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4FAB4B3024BEDC9EDED887C9D6AC62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02062E6B638A29C58F7D672BFCF914E1 /* Products */ = {
+		2343AD9233C72F6787A20F863482B6F1 /* Pods-SwiftyMockyGenerateCodeError */ = {
 			isa = PBXGroup;
 			children = (
-				59CF495FDB3C165F96EC3567E5B6A0F0 /* Pods-SwiftyMockyGenerateCodeError */,
-				F25BDACEC24FD154B722D562F1EA881C /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */,
-				D87DCD135E06EE0C45C0657905A4DAF3 /* Pods-SwiftyMockyGenerateCodeErrorTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		40B2F6B0EF29CBD114DA244258F4E33C /* Pods-SwiftyMockyGenerateCodeError */ = {
-			isa = PBXGroup;
-			children = (
-				5DA88780C13104F98DE6CA45A710083D /* Pods-SwiftyMockyGenerateCodeError.modulemap */,
-				16794FBBCE25FB4C9ABACDB612B959BE /* Pods-SwiftyMockyGenerateCodeError-acknowledgements.markdown */,
-				2FAE595E8396610ECC3C17C4F2F26552 /* Pods-SwiftyMockyGenerateCodeError-acknowledgements.plist */,
-				F44023095A67B76E985C597E9068646C /* Pods-SwiftyMockyGenerateCodeError-dummy.m */,
-				1E08F7C9B929D711A7C9E4E6D06C1C8C /* Pods-SwiftyMockyGenerateCodeError-Info.plist */,
-				496B91C8903D6A6C785F3776E6C2293B /* Pods-SwiftyMockyGenerateCodeError-umbrella.h */,
-				A99B150EFC20CA7E7F901A72B9D497BD /* Pods-SwiftyMockyGenerateCodeError.debug.xcconfig */,
-				A785F443BD308CBB01019A9A2A639535 /* Pods-SwiftyMockyGenerateCodeError.release.xcconfig */,
+				D66A537C7229E3BCA62C2378601AE3B4 /* Pods-SwiftyMockyGenerateCodeError.modulemap */,
+				36DF65DCAAFB659CADD7753852C11D42 /* Pods-SwiftyMockyGenerateCodeError-acknowledgements.markdown */,
+				2011C5AEA288AA4E731C9BEF58DC4048 /* Pods-SwiftyMockyGenerateCodeError-acknowledgements.plist */,
+				039B20DEEC847C532957CCF90A278046 /* Pods-SwiftyMockyGenerateCodeError-dummy.m */,
+				2F4C574292C7692FE28156A41299370F /* Pods-SwiftyMockyGenerateCodeError-frameworks.sh */,
+				119EA951AEA410B1ADA6F34176DB9B0A /* Pods-SwiftyMockyGenerateCodeError-Info.plist */,
+				41358E51CA9E23F050F113FE3DFE7D24 /* Pods-SwiftyMockyGenerateCodeError-umbrella.h */,
+				ED2904BC9566F2C4C0F8B898A5B188AE /* Pods-SwiftyMockyGenerateCodeError.debug.xcconfig */,
+				1FEEF3550E47A256A5F5948342B04EDF /* Pods-SwiftyMockyGenerateCodeError.release.xcconfig */,
 			);
 			name = "Pods-SwiftyMockyGenerateCodeError";
 			path = "Target Support Files/Pods-SwiftyMockyGenerateCodeError";
 			sourceTree = "<group>";
 		};
-		54EF1178C4FE59184706D4889C06C3EC /* Targets Support Files */ = {
+		39DBD9EF234C102DE03698FC2A640B94 /* SwiftyMocky */ = {
 			isa = PBXGroup;
 			children = (
-				40B2F6B0EF29CBD114DA244258F4E33C /* Pods-SwiftyMockyGenerateCodeError */,
-				91E0130B7028EEB5316666A6FCFF07E9 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */,
-				5FF427700D9B59A715A316E1FAD865BA /* Pods-SwiftyMockyGenerateCodeErrorTests */,
+				F2D1052B9B2B75403F98320D0FFB2968 /* ArgumentCaptor.swift */,
+				38E22C16D696D44F05786C432ECF3E1B /* Count.swift */,
+				89DA07FCCA87A0877A2ECBAAF218D8EC /* Countable.swift */,
+				20804B6266AD256ADB44F11E13461524 /* CustomAssertions.swift */,
+				9B120D71A77ED4F247B9FEF606C040F8 /* GenericAttribute.swift */,
+				DB27D444ECF8E6BF566098FBEEA92A15 /* Matcher.swift */,
+				37198A447BAE538F4EC20CAE2E682CC2 /* Mock.swift */,
+				61655F4345990ACC0CC26710D2892461 /* Mock+Assertions.swift */,
+				28D7E9AF55A4ADBB2A0FBD11F1335BD4 /* MockyAssert.swift */,
+				FC9EF9ECF43B9E4AE5B898857C447B93 /* Parameter.swift */,
+				ED521AFCBA5D73C33D7C8975173C6AA8 /* Parameter+Compare.swift */,
+				2AE9273D92C86BE9AD113C15B8C74A03 /* Parameter+Literals.swift */,
+				586EBCC101B32DB0D98C2170B3A394BB /* Parameter+Optionals.swift */,
+				F2A961BEB6E2333BD9BBE047D870BE08 /* Policies.swift */,
+				A084FD33B55D8213A6E2EDFD460B55B2 /* Stubbing.swift */,
+				E158455872CEA15C4DE57C859C1413A0 /* SwiftyMockyTestObserver.swift */,
+				226CCC3560B1B68D47128301B48971D8 /* Utils.swift */,
+				476F765D5FF16AC7A407E3B69F671564 /* Resources */,
+				DC3BACECEB56B781BE62F3865AD487D9 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = SwiftyMocky;
+			path = SwiftyMocky;
+			sourceTree = "<group>";
+		};
+		41800DC6374F835AF4824EB5EB3EE9D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46ECCE659A7AED3748E9280C51914B21 /* Sourcery.debug.xcconfig */,
+				9CAC436BD9D0DF55BEC0D0DEC221FF32 /* Sourcery.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sourcery";
+			sourceTree = "<group>";
+		};
+		476F765D5FF16AC7A407E3B69F671564 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B8FC0BBF8480938B4BBC930B22DB46E /* Mock.swifttemplate */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -132,36 +264,60 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5FF427700D9B59A715A316E1FAD865BA /* Pods-SwiftyMockyGenerateCodeErrorTests */ = {
+		68AF4C278BE7D32584405E01B0073E5A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7054785C39FF1694ED775F2D464171F4 /* Pods-SwiftyMockyGenerateCodeErrorTests.modulemap */,
-				F8275B59706F485ADBEDAEE216ABEC19 /* Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.markdown */,
-				91CC597D6554BDE54D6AD4CB9C976BDF /* Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.plist */,
-				31F55BF3FD76E12D1806DEF699A45C0C /* Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m */,
-				3E38D6F5FFFAD8DE6F9F7F0805B7318C /* Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist */,
-				53CF513D3B30E8C669637C7D05B3DD63 /* Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h */,
-				FC08AB54D753E89F53BFAADCA2CFF0E2 /* Pods-SwiftyMockyGenerateCodeErrorTests.debug.xcconfig */,
-				75E0B2C6812F638D4F3246C86C6E2FFE /* Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig */,
+				CA3CD8CC24418F768FC7CAAF00333DC5 /* Sourcery */,
+				39DBD9EF234C102DE03698FC2A640B94 /* SwiftyMocky */,
 			);
-			name = "Pods-SwiftyMockyGenerateCodeErrorTests";
-			path = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		91E0130B7028EEB5316666A6FCFF07E9 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */ = {
+		6D64362F67E212BEEE6760EF511BC3FA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CEAC560AF524D2929905FE426A342397 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.modulemap */,
-				593127802BDA4D996B4DD1F8BC3186E8 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.markdown */,
-				F0E517A230A41E489D3DC8FF48702807 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.plist */,
-				D373BACAFB1F4FC4CFF7794A6C8BF1C9 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m */,
-				659139CD1A299FDB12CAE806F21431EA /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-Info.plist */,
-				5BECB6D5AA6D775F2101EA0F33D7C565 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h */,
-				AA25C03DFAC35B7DAE20A09F4B4E399A /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig */,
-				2E2B137A31AA4B42CBFEF3DDDFD03C7A /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.release.xcconfig */,
+				2343AD9233C72F6787A20F863482B6F1 /* Pods-SwiftyMockyGenerateCodeError */,
+				81BA1E42D65D8704964B807A37647780 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */,
+				EFDBA6E101D6F94A8DEE7A7ED1FD08B0 /* Pods-SwiftyMockyGenerateCodeErrorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		81BA1E42D65D8704964B807A37647780 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD8617D075112F322A68A1E5446EC735 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.modulemap */,
+				4036C0A85FD42610A2BB779577974B6E /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.markdown */,
+				CD86D2A5BB94E0392031D3914D8FDAF2 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-acknowledgements.plist */,
+				3F67B1A3E7B1AFE802712DD341DA7B8E /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m */,
+				773FA784F2DC34EF8748EF5FB6E66DD0 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-frameworks.sh */,
+				8032E4925C40C574FA3A0C2632867ED6 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-Info.plist */,
+				77CB3E93AC75A2091BB562440413D171 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h */,
+				10FAFEC4C3340E97C70009938F9B0615 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig */,
+				8B40FF8EDB4A773B9FBBDDD296F9C892 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.release.xcconfig */,
 			);
 			name = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests";
 			path = "Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests";
+			sourceTree = "<group>";
+		};
+		CA3CD8CC24418F768FC7CAAF00333DC5 /* Sourcery */ = {
+			isa = PBXGroup;
+			children = (
+				41800DC6374F835AF4824EB5EB3EE9D4 /* Support Files */,
+			);
+			name = Sourcery;
+			path = Sourcery;
+			sourceTree = "<group>";
+		};
+		CBC50806266407C796E4A67C32104863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59CF495FDB3C165F96EC3567E5B6A0F0 /* Pods-SwiftyMockyGenerateCodeError */,
+				F25BDACEC24FD154B722D562F1EA881C /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */,
+				D87DCD135E06EE0C45C0657905A4DAF3 /* Pods-SwiftyMockyGenerateCodeErrorTests */,
+				A743758EAD656F9AE60F6B3041360F1B /* SwiftyMocky */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -169,8 +325,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				02062E6B638A29C58F7D672BFCF914E1 /* Products */,
-				54EF1178C4FE59184706D4889C06C3EC /* Targets Support Files */,
+				68AF4C278BE7D32584405E01B0073E5A /* Pods */,
+				CBC50806266407C796E4A67C32104863 /* Products */,
+				6D64362F67E212BEEE6760EF511BC3FA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,22 +339,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DC3BACECEB56B781BE62F3865AD487D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7C00639CB8C5CF34D37405860DA2FC1 /* SwiftyMocky.modulemap */,
+				7BA717784451100922460112C245B8B3 /* SwiftyMocky-dummy.m */,
+				D2FFA918D3DC2F56B4B82E9A584E7F8A /* SwiftyMocky-Info.plist */,
+				4DDA917285ABDE9E9E7E133737196CCA /* SwiftyMocky-prefix.pch */,
+				29F4D155D4DDC4E951B55C9F86A169D8 /* SwiftyMocky-umbrella.h */,
+				44C3157F2DA369F51BC73DF436AE110B /* SwiftyMocky.debug.xcconfig */,
+				79C6096EA539CFBD6BEFD6342A5D8B07 /* SwiftyMocky.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyMocky";
+			sourceTree = "<group>";
+		};
+		EFDBA6E101D6F94A8DEE7A7ED1FD08B0 /* Pods-SwiftyMockyGenerateCodeErrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				77029D2E9CDDA7A0AF40A4C3AFFBE6A4 /* Pods-SwiftyMockyGenerateCodeErrorTests.modulemap */,
+				14B8C4199040CE85DFA0ACB254977F61 /* Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.markdown */,
+				EAAD8B679ED2CCCCF79E74D2DBE18915 /* Pods-SwiftyMockyGenerateCodeErrorTests-acknowledgements.plist */,
+				75BDEAF68BE3735D579CF65B2DF9ED40 /* Pods-SwiftyMockyGenerateCodeErrorTests-dummy.m */,
+				5E5F1B7474314ADE5FD2F23DD75E255C /* Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist */,
+				DB3770CC340B3D5B7BAE68A8AA45B36E /* Pods-SwiftyMockyGenerateCodeErrorTests-umbrella.h */,
+				39A09E559E4DC63743C7F41F2F39D507 /* Pods-SwiftyMockyGenerateCodeErrorTests.debug.xcconfig */,
+				E62093EBB8E656F406B8D4717E5A8582 /* Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig */,
+			);
+			name = "Pods-SwiftyMockyGenerateCodeErrorTests";
+			path = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		924D630915EB80D921922D09CEC798CB /* Headers */ = {
+		A700CF01127C0FA49A78C3FE13A4726E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67912EAE1A76AC80850A9888A6800EE4 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h in Headers */,
+				19B7C418006B5DE95915EEC176F51F19 /* SwiftyMocky-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95EE691BBE3903FDA5DD5E5962DB3B7E /* Headers */ = {
+		B8C5908D0F1F278CF282B0A04F4E6B48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6AB321D2AE1A8BC951249BEDD73066 /* Pods-SwiftyMockyGenerateCodeError-umbrella.h in Headers */,
+				8E12CCD65F2FA3E19FAB8A835BA8CE52 /* Pods-SwiftyMockyGenerateCodeError-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5FD8928F656E334E8E8A38043C2149 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6553E08040E5A7B4BE86568941054C /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +420,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3B955BEB28B3D80F5BDB8512B91C11C8 /* PBXTargetDependency */,
+				7558811FBBA837904D56711038E85933 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftyMockyGenerateCodeErrorTests";
 			productName = Pods_SwiftyMockyGenerateCodeErrorTests;
@@ -233,34 +429,57 @@
 		};
 		21471839809C0690438E420072DC97C6 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6283B4C880C83DD002342E1964EF4B51 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests" */;
+			buildConfigurationList = 1E44074158C23587D2188DE965C5A087 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests" */;
 			buildPhases = (
-				924D630915EB80D921922D09CEC798CB /* Headers */,
-				C68539EB88370F7BAF5025CC35550C80 /* Sources */,
-				732E2B8C53CEF070C8A22EE2F07CAAD4 /* Frameworks */,
-				22B95B9887907A6D84E63B52EA050BC5 /* Resources */,
+				CA5FD8928F656E334E8E8A38043C2149 /* Headers */,
+				5B5A5BB37692E85693381220E8C41D80 /* Sources */,
+				4363FB4CEF05A4508B77F7521A08D675 /* Frameworks */,
+				B762F87ED2EB0D7C998F378FD8798D87 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C7E09460CFADACA8F9D5BB07DD8501EA /* PBXTargetDependency */,
+				76769985B47E1F1FC48BB4B89438BB1D /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests";
 			productName = Pods_SwiftyMockyGenerateCodeError_SwiftyMockyGenerateCodeErrorUITests;
 			productReference = F25BDACEC24FD154B722D562F1EA881C /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */;
 			productType = "com.apple.product-type.framework";
 		};
-		ABBC50F9280F416EDFCB2607C82101BD /* Pods-SwiftyMockyGenerateCodeError */ = {
+		4E1D382CC4BD286E42005EFFC61B9445 /* SwiftyMocky */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4454F8AC6D4CAC4C84B5721F8ACBF98 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMockyGenerateCodeError" */;
+			buildConfigurationList = 7C67768EB7A26DEA763EF9C33068D62D /* Build configuration list for PBXNativeTarget "SwiftyMocky" */;
 			buildPhases = (
-				95EE691BBE3903FDA5DD5E5962DB3B7E /* Headers */,
-				FBDE8212083F82E339822FF5A9106EFF /* Sources */,
-				3B6E93D7FC50165D0C84179B086171CC /* Frameworks */,
-				714672A0DC60A8837D8527BA15D45855 /* Resources */,
+				A700CF01127C0FA49A78C3FE13A4726E /* Headers */,
+				D10D42075017C19DB87F4E30008313C0 /* Sources */,
+				04195EB650CF74ACE49D4A097EC0F15B /* Frameworks */,
+				6B552DEE8FEB07AD3AB02F1D17F301D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				848328E55F7DCA34B2D7E8794642CE2C /* PBXTargetDependency */,
+			);
+			name = SwiftyMocky;
+			productName = SwiftyMocky;
+			productReference = A743758EAD656F9AE60F6B3041360F1B /* SwiftyMocky */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABBC50F9280F416EDFCB2607C82101BD /* Pods-SwiftyMockyGenerateCodeError */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7975A88307DAB5C790F803D380659D /* Build configuration list for PBXNativeTarget "Pods-SwiftyMockyGenerateCodeError" */;
+			buildPhases = (
+				B8C5908D0F1F278CF282B0A04F4E6B48 /* Headers */,
+				B9D919B8B6F27EDBBB0A6CD3E8DD1B00 /* Sources */,
+				B21E6F06EE1CCDC0D66F55DF27CD425A /* Frameworks */,
+				552B10666E355AB9CA92E0B05AED0034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5DAC53314555D6573BC2BA59B1B7507 /* PBXTargetDependency */,
+				D044D2D5986F2C3C56797BDB7FB2BD69 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftyMockyGenerateCodeError";
 			productName = Pods_SwiftyMockyGenerateCodeError;
@@ -285,19 +504,21 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 02062E6B638A29C58F7D672BFCF914E1 /* Products */;
+			productRefGroup = CBC50806266407C796E4A67C32104863 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				ABBC50F9280F416EDFCB2607C82101BD /* Pods-SwiftyMockyGenerateCodeError */,
 				21471839809C0690438E420072DC97C6 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests */,
 				0950D7A6D75AD472566BCCE4560AC56C /* Pods-SwiftyMockyGenerateCodeErrorTests */,
+				4D8229B0397AE8C2F7C11B3F9EFC9362 /* Sourcery */,
+				4E1D382CC4BD286E42005EFFC61B9445 /* SwiftyMocky */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22B95B9887907A6D84E63B52EA050BC5 /* Resources */ = {
+		552B10666E355AB9CA92E0B05AED0034 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,7 +532,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		714672A0DC60A8837D8527BA15D45855 /* Resources */ = {
+		6B552DEE8FEB07AD3AB02F1D17F301D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DEEDBE4350A8817FA9E0CD4CCB88C4 /* Mock.swifttemplate in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B762F87ED2EB0D7C998F378FD8798D87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,71 +558,121 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C68539EB88370F7BAF5025CC35550C80 /* Sources */ = {
+		5B5A5BB37692E85693381220E8C41D80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C2E9B0C5BCB8ED884B88DC4126A7CD7 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m in Sources */,
+				16C7B45F87DD0969B480B4E2833840E8 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBDE8212083F82E339822FF5A9106EFF /* Sources */ = {
+		B9D919B8B6F27EDBBB0A6CD3E8DD1B00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F90B453046B34E69B8B8CE8A9421224 /* Pods-SwiftyMockyGenerateCodeError-dummy.m in Sources */,
+				C84BB504C01FCF7C373350C341F23B1A /* Pods-SwiftyMockyGenerateCodeError-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10D42075017C19DB87F4E30008313C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686FA755802C5E7D3F18F7F0148A97E1 /* ArgumentCaptor.swift in Sources */,
+				4830AA8897EFDC52A2EED29078BAA3A2 /* Count.swift in Sources */,
+				D41A3571305D4C0C4A0772AB0673E48D /* Countable.swift in Sources */,
+				DEAFF6DA6AE4A4CDDF869966B0735688 /* CustomAssertions.swift in Sources */,
+				4A9BAA38CB6625DBD2E043D892BCDC62 /* GenericAttribute.swift in Sources */,
+				A52334050CF03C001176A460B0DA0F7D /* Matcher.swift in Sources */,
+				85B618DB0108B0FA2DAB4C35D7B33B5E /* Mock.swift in Sources */,
+				4B5C9EDE9E69794818F9E5253A7E24C4 /* Mock+Assertions.swift in Sources */,
+				69A2E49A914F7DDC65B1DD44B549E1DA /* MockyAssert.swift in Sources */,
+				DFBA859054B8199877E6009BDA73B1F8 /* Parameter.swift in Sources */,
+				8781D25B79F8268A8AFE485B445C02EF /* Parameter+Compare.swift in Sources */,
+				2FBF204C9ADBE81266A0524A7A27410A /* Parameter+Literals.swift in Sources */,
+				E545E95B1DB327DC7F282737690EBAA8 /* Parameter+Optionals.swift in Sources */,
+				25B25A5C0A3CED24B0730E8710883407 /* Policies.swift in Sources */,
+				5686190C356089AE95800EA801042739 /* Stubbing.swift in Sources */,
+				4D14E6E7D1E1C2A43343EF089876099E /* SwiftyMocky-dummy.m in Sources */,
+				5B28EC84FA8C8F3F2839865DD96E604F /* SwiftyMockyTestObserver.swift in Sources */,
+				BB7C3810A9D6135BD533A84181F4556B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B955BEB28B3D80F5BDB8512B91C11C8 /* PBXTargetDependency */ = {
+		7558811FBBA837904D56711038E85933 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SwiftyMockyGenerateCodeError";
 			target = ABBC50F9280F416EDFCB2607C82101BD /* Pods-SwiftyMockyGenerateCodeError */;
-			targetProxy = 028586EA3C81701F0E8ECB3481C1479F /* PBXContainerItemProxy */;
+			targetProxy = AAE5600AB6643156CB1604492C6AA8F7 /* PBXContainerItemProxy */;
+		};
+		76769985B47E1F1FC48BB4B89438BB1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyMocky;
+			target = 4E1D382CC4BD286E42005EFFC61B9445 /* SwiftyMocky */;
+			targetProxy = D841EC8E619A481C4DA6FA19C7C75368 /* PBXContainerItemProxy */;
+		};
+		848328E55F7DCA34B2D7E8794642CE2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sourcery;
+			target = 4D8229B0397AE8C2F7C11B3F9EFC9362 /* Sourcery */;
+			targetProxy = 2BE37595C2248E6C384C8CE5C2ED274F /* PBXContainerItemProxy */;
+		};
+		C5DAC53314555D6573BC2BA59B1B7507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sourcery;
+			target = 4D8229B0397AE8C2F7C11B3F9EFC9362 /* Sourcery */;
+			targetProxy = 97782D6A8531C22AA693BF03BF199AD4 /* PBXContainerItemProxy */;
+		};
+		C7E09460CFADACA8F9D5BB07DD8501EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sourcery;
+			target = 4D8229B0397AE8C2F7C11B3F9EFC9362 /* Sourcery */;
+			targetProxy = 7738871799C67D2890AEE5C28DDF1DB1 /* PBXContainerItemProxy */;
+		};
+		D044D2D5986F2C3C56797BDB7FB2BD69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyMocky;
+			target = 4E1D382CC4BD286E42005EFFC61B9445 /* SwiftyMocky */;
+			targetProxy = 797234DDAA138C7D5A9B658EAD0F5FD6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13A3E43C85C7CA92D4C44A4265B3118D /* Release */ = {
+		2763944829C055B97F9E3601C450782B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A785F443BD308CBB01019A9A2A639535 /* Pods-SwiftyMockyGenerateCodeError.release.xcconfig */;
+			baseConfigurationReference = 44C3157F2DA369F51BC73DF436AE110B /* SwiftyMocky.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeError/Pods-SwiftyMockyGenerateCodeError-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMocky/SwiftyMocky-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMocky/SwiftyMocky-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeError/Pods-SwiftyMockyGenerateCodeError.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftyMocky/SwiftyMocky.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyMocky;
+				PRODUCT_NAME = SwiftyMocky;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -523,9 +802,9 @@
 			};
 			name = Release;
 		};
-		6D454BB51D0E6D0DF7B1269A0E36854C /* Debug */ = {
+		B65F71D9CC6595D6E55CBD806A7FA7E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA25C03DFAC35B7DAE20A09F4B4E399A /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig */;
+			baseConfigurationReference = 1FEEF3550E47A256A5F5948342B04EDF /* Pods-SwiftyMockyGenerateCodeError.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -537,7 +816,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeError/Pods-SwiftyMockyGenerateCodeError-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -546,7 +825,45 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeError/Pods-SwiftyMockyGenerateCodeError.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7D1006ECDF8ED006968E563404AE9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A09E559E4DC63743C7F41F2F39D507 /* Pods-SwiftyMockyGenerateCodeErrorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -560,9 +877,26 @@
 			};
 			name = Debug;
 		};
-		9C27429B7D6C7E9BCC2C74638B2CC6D9 /* Debug */ = {
+		B9AA9E744893BE0ECE16F224C3F3DD31 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A99B150EFC20CA7E7F901A72B9D497BD /* Pods-SwiftyMockyGenerateCodeError.debug.xcconfig */;
+			baseConfigurationReference = 9CAC436BD9D0DF55BEC0D0DEC221FF32 /* Sourcery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4947F2BCFFD3BBA562544B9AE06D705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2904BC9566F2C4C0F8B898A5B188AE /* Pods-SwiftyMockyGenerateCodeError.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -597,84 +931,9 @@
 			};
 			name = Debug;
 		};
-		B7D1006ECDF8ED006968E563404AE9D0 /* Debug */ = {
+		CD9604F56134DC669B9C662EDF45684F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC08AB54D753E89F53BFAADCA2CFF0E2 /* Pods-SwiftyMockyGenerateCodeErrorTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DC38FAF847119DC254C7B1A2C10DA0AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75E0B2C6812F638D4F3246C86C6E2FFE /* Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E7C8472EF8C73EE4FB6305D57FBD071C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E2B137A31AA4B42CBFEF3DDDFD03C7A /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.release.xcconfig */;
+			baseConfigurationReference = 8B40FF8EDB4A773B9FBBDDD296F9C892 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -710,9 +969,143 @@
 			};
 			name = Release;
 		};
+		DC38FAF847119DC254C7B1A2C10DA0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E62093EBB8E656F406B8D4717E5A8582 /* Pods-SwiftyMockyGenerateCodeErrorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeErrorTests/Pods-SwiftyMockyGenerateCodeErrorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4575704C2F74C7294286E78FC79381C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C6096EA539CFBD6BEFD6342A5D8B07 /* SwiftyMocky.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMocky/SwiftyMocky-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMocky/SwiftyMocky-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyMocky/SwiftyMocky.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyMocky;
+				PRODUCT_NAME = SwiftyMocky;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F70E556169FDFE765E29C2524693CE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46ECCE659A7AED3748E9280C51914B21 /* Sourcery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE87AAD0CDECDAA97B0292B23E0F1F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FAFEC4C3340E97C70009938F9B0615 /* Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1E44074158C23587D2188DE965C5A087 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE87AAD0CDECDAA97B0292B23E0F1F64 /* Debug */,
+				CD9604F56134DC669B9C662EDF45684F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -731,20 +1124,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6283B4C880C83DD002342E1964EF4B51 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests" */ = {
+		7C67768EB7A26DEA763EF9C33068D62D /* Build configuration list for PBXNativeTarget "SwiftyMocky" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D454BB51D0E6D0DF7B1269A0E36854C /* Debug */,
-				E7C8472EF8C73EE4FB6305D57FBD071C /* Release */,
+				2763944829C055B97F9E3601C450782B /* Debug */,
+				E4575704C2F74C7294286E78FC79381C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4454F8AC6D4CAC4C84B5721F8ACBF98 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMockyGenerateCodeError" */ = {
+		8C0FA8664472892B08200EA125A01D5C /* Build configuration list for PBXAggregateTarget "Sourcery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C27429B7D6C7E9BCC2C74638B2CC6D9 /* Debug */,
-				13A3E43C85C7CA92D4C44A4265B3118D /* Release */,
+				F70E556169FDFE765E29C2524693CE3C /* Debug */,
+				B9AA9E744893BE0ECE16F224C3F3DD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7975A88307DAB5C790F803D380659D /* Build configuration list for PBXNativeTarget "Pods-SwiftyMockyGenerateCodeError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4947F2BCFFD3BBA562544B9AE06D705 /* Debug */,
+				B65F71D9CC6595D6E55CBD806A7FA7E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -179,6 +179,7 @@
 				3B2D50FC2ADFEBA300AA5020 /* Sources */,
 				3B2D50FD2ADFEBA300AA5020 /* Frameworks */,
 				3B2D50FE2ADFEBA300AA5020 /* Resources */,
+				CB367996852C1DF6F853380D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +217,7 @@
 				3B2D511C2ADFEBA500AA5020 /* Sources */,
 				3B2D511D2ADFEBA500AA5020 /* Frameworks */,
 				3B2D511E2ADFEBA500AA5020 /* Resources */,
+				3233DEC018B754926F59E3AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +300,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3233DEC018B754926F59E3AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests/Pods-SwiftyMockyGenerateCodeError-SwiftyMockyGenerateCodeErrorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B0F2EDBB3C2E9C875B87C444 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,6 +337,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB367996852C1DF6F853380D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyMockyGenerateCodeError/Pods-SwiftyMockyGenerateCodeError-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyMockyGenerateCodeError/Pods-SwiftyMockyGenerateCodeError-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyMockyGenerateCodeError/Pods-SwiftyMockyGenerateCodeError-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CBD0532C7497F6B0DBD14AA1 /* [CP] Check Pods Manifest.lock */ = {

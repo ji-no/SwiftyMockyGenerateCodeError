@@ -6,6 +6,7 @@ target 'SwiftyMockyGenerateCodeError' do
   use_frameworks!
 
   # Pods for SwiftyMockyGenerateCodeError
+  pod 'SwiftyMocky'
 
   target 'SwiftyMockyGenerateCodeErrorTests' do
     inherit! :search_paths
