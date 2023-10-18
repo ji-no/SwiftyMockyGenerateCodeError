@@ -1,0 +1,13 @@
+sourceryCommand: null
+sourceryTemplate: null
+SwiftyMockyGenerateCodeErrorTests:
+  sources:
+    include:
+    - ./SwiftyMockyGenerateCodeError
+  output: ./Mock.generated.swift
+  targets:
+  - SwiftyMockyGenerateCodeErrorTests
+  testable:
+  - SwiftyMockyGenerateCodeError
+  import:
+  - Foundation
